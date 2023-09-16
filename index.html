@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Study Tool</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Student Study Tool</h1>
+        </header>
+
+        <main>
+            <section id="assignments">
+                <h2>Assignments</h2>
+                <ul id="assignment-list">
+                    <!-- Assignments-->
+                </ul>
+                <div class="add-item">
+                    <input type="text" id="assignment-input" placeholder="Add an assignment">
+                    <button id="assignment-btn" onclick="addAssignment()">Add</button>
+                </div>
+            </section>
+
+            <section id="reminders">
+                <h2>Reminders</h2>
+                <ul id="reminder-list">
+                    <!-- Reminders-->
+                </ul>
+                <div class="add-item">
+                    <input type="text" id="reminder-input" placeholder="Add a reminder">
+                    <button id="reminder-btn" onclick="addReminder()">Add</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Student Study Tool</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
+
