@@ -21,7 +21,7 @@ The Student Study Tool provides a simple interface for managing assignments and 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/student-study-tool.git
+    git clone https://github.com/chirag640/student-study-tool.git
     ```
 
 2. Open the `index.html` file in a web browser to use the Student Study Tool.
